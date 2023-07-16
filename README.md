@@ -30,7 +30,7 @@ Vp = 3000 [m/s]
 Vs = 1723 [m/s]   
 density = 2306 [kg/m3]
 Biot's coefficient 1   
-matrix permeability 10E-13 [m2]  
+matrix permeability 10E-13 [m2]   
 fluid viscosity 1E-3 [Pa*s]
 ### Fracturing injection/flowback sequence:   
 Model time 600 [s] with uniform time step of 10 [s].   
