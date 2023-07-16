@@ -6,7 +6,7 @@
 Use HDFWiew `https://www.hdfgroup.org/downloads/hdfview/` to inspect the data field.   
 ### `dat_well` (nrow by ncol by nframe)
 row (400): different coordinates   
-column (10): 1~3 three-component displacement [m]; 4 pressure [Pa]; 5~10 six-component stress [Pa]   
+column (10): 1:3 three-component displacement [m]; 4 pressure [Pa]; 5:10 six-component stress [Pa]   
 frame (61): times of a uniform spacing `dt`.   
 **Note**, The time frames include an initial time (t=0) that can be discarded. The stresses are caulicated from solid deformations.  
 ### `slip_frac` (nrow by ncol by nframe)
@@ -15,11 +15,11 @@ column (3): three-component fracture slip [m], in strike, dip and normal directi
 frame (61): time steps.   
 ### `frac_trac` (nrow by ncol by nframe)
 row (1370): fracture pixels   
-column (4): 1~3 strike dip and normal traction [Pa], 4 pressure [Pa]   
+column (4): 1:3 strike dip and normal traction [Pa], 4 pressure [Pa]   
 frame (61): time steps.   
 ### `xyz_frac` (nrow by ncol)
 row (1370): fracture pixels   
-column (10): 1~3 x-y-z coordinates [m]; 4~6 strike vectors; 7~9 dip vectors; 10 representative areas [m2] of the fracture pixels. **Note**, these areas are useful for estimating fracture geometry.
+column (10): 1:3 x-y-z coordinates [m]; 4:6 strike vectors; 7:9 dip vectors; 10 representative areas [m2] of the fracture pixels. **Note**, these areas are useful for estimating fracture geometry.
 ### `xyz_well` (nrow by ncol)
 row (400): fiber optics (well) measurements   
 col (3): x-y-z [m] coordinates.
