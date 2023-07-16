@@ -19,10 +19,11 @@ column (4): 1:3 strike dip and normal traction [Pa], 4 pressure [Pa]
 frame (61): time steps.   
 ### `xyz_frac` (nrow by ncol)
 row (1370): fracture pixels   
-column (10): 1:3 x-y-z coordinates [km]; 4:6 strike vectors; 7:9 dip vectors; 10 representative areas [m2] of the fracture pixels. **Note**, these areas are useful for estimating fracture geometry.
+column (10): 1:3 `x-y-z` coordinates [km]; 4:6 strike vectors; 7:9 dip vectors; 10 representative areas [m2] of the fracture pixels. **Note**, these areas are useful for estimating fracture geometry.
 ### `xyz_well` (nrow by ncol)
 row (400): fiber optics (well) measurements   
-col (3): x-y-z [km] coordinates.
+col (3): `x-y-z` [km] coordinates.   
+**Note**, all the `x-y-z` coordinates are in km.
 ## Additional model information
 ### Formation properties:   
 Vp = 3000 [m/s]   
