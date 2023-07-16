@@ -27,7 +27,7 @@ col (3): `x-y-z` [km] coordinates.
 ## Additional model information
 ### Formation properties:   
 Vp = 3000 [m/s]   
-Vs = 1723 [m/s]  
+Vs = 1723 [m/s]   
 density = 2306 [kg/m3]
 Biot's coefficient 1   
 matrix permeability 10E-13 [m2]  
