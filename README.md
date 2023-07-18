@@ -11,7 +11,7 @@ frame (61): times of a uniform spacing `dt`.
 **Note**, The time frames include an initial time (t=0) that can be discarded. The stresses are calculated from solid deformations, and their column orders are important for calculating strains.
 ### `slip_frac` (nrow by ncol by nframe)
 row (1370): different fracture pixels;   
-column (3): three-component fracture slip [m], in strike, dip and normal directions;  
+column (3): three-component fracture slip [m], in strike, dip and normal directions;   
 frame (61): time steps.   
 ### `frac_trac` (nrow by ncol by nframe)
 row (1370): fracture pixels;   
