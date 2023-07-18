@@ -6,7 +6,7 @@
 Use HDFWiew `https://www.hdfgroup.org/downloads/hdfview/` to inspect the data field.   
 ### `dat_well` (nrow by ncol by nframe)
 row (400): different coordinates   
-column (10): 1:3 three-component displacement [m]; 4 pressure [Pa]; 5:10 six-component stress [Pa]   
+column (10): 1:3 three-component displacement [m], in x, y, and z; 4 pressure [Pa]; 5:10 six-component stress [Pa], in xx, yy, zz, xy, yz, and xz   
 frame (61): times of a uniform spacing `dt`.   
 **Note**, The time frames include an initial time (t=0) that can be discarded. The stresses are caulicated from solid deformations.  
 ### `slip_frac` (nrow by ncol by nframe)
